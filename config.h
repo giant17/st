@@ -7,8 +7,8 @@
  */
 
 /* static char *font = "mono:pixelsize=16:antialias=true:autohint=true"; */
-static char *font = "DejaVuSansMono Nerd Font:pixelsize=16:antialias=true:autohint=true";
-static char *font2[] = { "Inconsolata for Powerline:pixelsize=16:antialias=true:autohint=true" };
+static char *font = "FantasqueSans Mono:pixelsize=20:antialias=true:autohint=true";
+static char *font2[] = { "FantasqueSans for Powerline:pixelsize=20:antialias=true:autohint=true" };
 /* static char *font2[] = { "Nerd Font Complete:pixelsize=16:antialias=true:autohint=true" }; */
 static int borderpx = 2;
 
