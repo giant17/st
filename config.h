@@ -64,7 +64,7 @@ static unsigned int cursorthickness = 2;
 static int bellvolume = 0;
 
 /* default TERM value */
-char *termname = "st-256color";
+char *termname = "xterm";
 
 /*
  * spaces per tab
@@ -250,7 +250,7 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,               XK_v,           clippaste,      {.i =  0} },
 	{ MODKEY,               XK_p,           selpaste,       {.i =  0} },
 	{ MODKEY,               XK_Num_Lock,    numlock,        {.i =  0} },
-	{ XK_ANY_MOD,           XK_F6,          swapcolors,     {.i =  0} },
+	{ MODKEY,               XK_F6,          swapcolors,     {.i =  0} },
 	{ MODKEY,               XK_Escape,      keyboard_select,{ 0 } },
 	{ MODKEY,               XK_Control_L,   iso14755,       {.i =  0} },
 	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
